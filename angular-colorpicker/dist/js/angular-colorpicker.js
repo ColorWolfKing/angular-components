@@ -155,6 +155,9 @@ angular.module('ui.colorpicker', [])
 
             //parse a string to HSB
             setColor: function(val) {
+                if (val == undefined || val == null)
+                    return;
+                
                 val = val.toLowerCase();
                 for (var key in Helper.stringParsers) {
                     if (Helper.stringParsers.hasOwnProperty(key)) {
