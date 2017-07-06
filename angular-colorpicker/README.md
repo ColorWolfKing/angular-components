@@ -26,7 +26,7 @@ a beautiful color picker based on angularJS.It supports the following features:
 
 **html代码**
 ```html
-<colorpicker color="color" color-type="rgba" color-language="zh-CN"></colorpicker>
+<colorpicker color="color" color-type="rgba" color-language="zh-cn"></colorpicker>
 ```
 
 **angular代码**
